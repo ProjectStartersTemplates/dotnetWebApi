@@ -1,0 +1,4 @@
+2022-08-19 02:07:55.6855 ERROR Invalid model state for the EmployeeForCreationDto object
+2022-08-19 15:59:06.5987 ERROR Invalid model state for the object. Controller: Companies, action: CreateCompany 
+2022-08-19 17:25:13.9821 INFO Company with id: 0eb55ff3-9ffe-4e6c-8da8-08da8128bc73 doesn't exist in the database.
+2022-08-19 17:28:45.6495 INFO Company with id: 0eb55ff3-9ffe-4e6c-8da8-08da8128bc73 doesn't exist in the database.
