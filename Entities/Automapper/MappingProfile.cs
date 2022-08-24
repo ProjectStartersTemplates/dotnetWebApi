@@ -16,6 +16,9 @@ namespace Entities.Automapper
             CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
             CreateMap<CompanyForUpdateDto, Company>();
 
+
+            CreateMap<UserForRegistrationDto, User>();
+
         }
     }
 }

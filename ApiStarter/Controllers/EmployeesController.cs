@@ -1,5 +1,4 @@
-﻿
-namespace ApiStarter.Controllers
+﻿namespace ApiStarter.Controllers
 {
     [Route("api/companies/{companyId}/employees")]
     [ApiController]
@@ -8,26 +7,41 @@ namespace ApiStarter.Controllers
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
-        public EmployeesController(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        private readonly EmployeeLinks _employeeLinks;
+        public EmployeesController(IRepositoryManager repository, ILoggerManager logger
+                                   ,IMapper mapper, EmployeeLinks employeeLinks)
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
+            _employeeLinks = employeeLinks;
         }
 
 
         [HttpGet]
-        public async Task<IActionResult> GetEmployeesForCompany(Guid companyId)
+        [HttpHead]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
+        public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
+            if (!employeeParameters.ValidAgeRange)
+                return BadRequest("Max age can't be less than min age.");
             var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
             if (company == null)
             {
                 _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
                 return NotFound();
             }
-            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, trackChanges: false);
+
+            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId: companyId, employeeParameters: employeeParameters, trackChanges: false);
+
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(employeesFromDb.MetaData));
+
+
+
+
             var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
-            return Ok(employeesDto);
+            var links = _employeeLinks.TryGenerateLinks(employeesDto,employeeParameters.Fields, companyId, HttpContext);
+            return links.HasLinks ? Ok(links.LinkedEntities) : Ok(links.ShapedEntities);
         }
 
 
@@ -116,7 +130,7 @@ namespace ApiStarter.Controllers
                 _logger.LogError("patchDoc object sent from client is null.");
                 return BadRequest("patchDoc object is null");
             }
-            var employeeEntity= HttpContext.Items["employee"] as Employee;
+            var employeeEntity = HttpContext.Items["employee"] as Employee;
 
             var employeeToPatch = _mapper.Map<EmployeeForUpdateDto>(employeeEntity);
             patchDoc.ApplyTo(employeeToPatch);

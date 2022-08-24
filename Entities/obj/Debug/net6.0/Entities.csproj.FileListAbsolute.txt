@@ -3,7 +3,6 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\bin\Deb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\bin\Debug\net6.0\Entities.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\bin\Debug\net6.0\ref\Entities.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\bin\Debug\net6.0\Entities.pdb
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Deb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\ref\Entities.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache

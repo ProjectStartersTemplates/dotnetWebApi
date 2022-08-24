@@ -1,11 +1,11 @@
-﻿
-
-
-namespace ApiStarter.Controllers
+﻿namespace ApiStarter.Controllers
 {
-
+    [ApiVersion("1.0")]
     [Route("api/companies")]
+    [Authorize]
+    //[ResponseCache(CacheProfileName = "120SecondsDuration")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "v1")]
     public class CompaniesController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
@@ -19,15 +19,18 @@ namespace ApiStarter.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetCompanies()
+        [HttpGet(Name = "GetCompanies"), Authorize(Roles = "Manager")]
+        public async Task<IActionResult> GetCompanies([FromQuery]CompanyParameters companyParameters)
         {
-            var companies = await _repository.Company.GetAllCompaniesAsync(trackChanges: false);
+            var companies = await _repository.Company.GetAllCompaniesAsync(companyParameters,trackChanges: false);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(companies.MetaData));
+
             var companiesDto = _mapper.Map<IEnumerable<CompanyDto>>(companies);
             return Ok(companiesDto);
         }
 
         [HttpGet("{id}", Name = "CompanyById")]
+         
         public async Task<IActionResult> GetCompany(Guid id)
         {
             var company = await _repository.Company.GetCompanyAsync(id, trackChanges: false);
@@ -44,7 +47,7 @@ namespace ApiStarter.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCompany")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
         {
@@ -129,5 +132,13 @@ namespace ApiStarter.Controllers
             return NoContent();
         }
 
+
+
+        [HttpOptions]
+        public IActionResult GetCompaniesOptions()
+        {
+            Response.Headers.Add("Allow", "GET, OPTIONS, POST");
+            return Ok();
+        }
     }
 }

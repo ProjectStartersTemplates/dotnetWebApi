@@ -25,6 +25,26 @@ global using ApiStarter.ModelBinders;
 global using Microsoft.AspNetCore.JsonPatch;
 global using Microsoft.AspNetCore.Mvc.Filters;
 global using ApiStarter.ActionFilters;
+global using Entities.RequestFeatures;
+global using Newtonsoft.Json;
+
+global using Contracts.Datashaper;
+global using Repository.DataShaping;
+
+global using Entities.LinkModels;
+global using ApiStarter.Utility;
+global using Microsoft.AspNetCore.Mvc.Versioning;
+global using Marvin.Cache.Headers;
+global using AspNetCoreRateLimit;
+
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.IdentityModel.Tokens;
+
+global using Microsoft.OpenApi.Models;
+
+
 
 
 

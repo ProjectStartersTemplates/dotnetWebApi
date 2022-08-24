@@ -1,3 +1,9 @@
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.csproj.AssemblyReference.cache
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.AssemblyInfoInputs.cache
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.AssemblyInfo.cs
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.csproj.CoreCompileInputs.cache
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\ConfigFiles\nlog.config
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\appsettings.json
@@ -10,6 +16,8 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\D
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Humanizer.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -25,6 +33,8 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\D
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\NLog.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -33,6 +43,7 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\D
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -57,13 +68,7 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\D
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Repository.pdb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Contracts.pdb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Entities.pdb
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.csproj.AssemblyReference.cache
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.AssemblyInfoInputs.cache
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.AssemblyInfo.cs
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.csproj.CoreCompileInputs.cache
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\scopedcss\bundle\ApiStarter.styles.css
@@ -72,7 +77,13 @@ C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\D
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ref\ApiStarter.dll
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.pdb
 C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\obj\Debug\net6.0\ApiStarter.genruntimeconfig.cache
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Marvin.Cache.Headers.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\BASHA\Documents\SomDigital\Clients\Starters\ApiStarter\ApiStarter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

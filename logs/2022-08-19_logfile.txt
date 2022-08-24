@@ -2,3 +2,4 @@
 2022-08-19 15:59:06.5987 ERROR Invalid model state for the object. Controller: Companies, action: CreateCompany 
 2022-08-19 17:25:13.9821 INFO Company with id: 0eb55ff3-9ffe-4e6c-8da8-08da8128bc73 doesn't exist in the database.
 2022-08-19 17:28:45.6495 INFO Company with id: 0eb55ff3-9ffe-4e6c-8da8-08da8128bc73 doesn't exist in the database.
+2022-08-19 18:15:44.0361 INFO Company with id: 39e742c1-135d-4138-1197-08da8118e393 doesn't exist in the database.
